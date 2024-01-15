@@ -1,0 +1,59 @@
+.App {
+  box-sizing: border-box;
+  text-align: center;
+  background-color: white;
+  width: 20vw;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 50vh;
+  border-radius: 16px;
+  padding: 32px;
+  margin-top: 72px;
+  color: rgb(12, 9, 48);
+  border: 3px solid rgb(12, 9, 48);;
+}
+button {
+  color: white;
+  padding: 8px;
+  border: 1px solid white;
+  background-color: red;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  color: red;
+  background-color: white;
+  border: 1px solid red;
+}
+label {
+  display: block;
+}
+
+input {
+  border: transparent;
+  border-bottom: 1px solid rgb(12, 9, 48);
+  height: 25px;
+  
+  width: 60%;
+}
+input:focus {
+  outline: none;
+}
+
+.error {
+  color: red;
+  font-weight: 600;
+  font-size: 12px;
+}
+.acceptBox {
+  width: 25px;
+  height: 16px;
+}
+
+@media (max-width :500px) {
+  .App {
+    width: 90vw;
+    height: 90vh;
+    margin-top: 10px;
+  }
+}
